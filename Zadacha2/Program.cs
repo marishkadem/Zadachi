@@ -7,9 +7,9 @@ int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 
 if (b > max){
-    int max = b;
+    max = b;
 }
-else if (c > max){
-    int max = c;
+if (c > max){
+    max = c;
 }
 System.Console.WriteLine(max);
